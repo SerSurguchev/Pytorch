@@ -2,9 +2,8 @@
 
 Paper: [link](https://www.kaggle.com/datasets/balraj98/horse2zebra-dataset)
 
-Horses and Zebras Dataset
 
-The dataset can be downloaded from Kaggle: [link](https://www.kaggle.com/datasets/balraj98/horse2zebra-dataset)
+Horses and zebras dataset can be downloaded from Kaggle: [link](https://www.kaggle.com/datasets/balraj98/horse2zebra-dataset)
 
 
 6 residual blocks is used for 128 × 128 training images, and 9 residual blocks for 256 ×256 or higher-resolution training images. 9 residual block was implemented in this project.
