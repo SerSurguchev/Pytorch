@@ -118,7 +118,7 @@ def main():
             config.CHECKPOINT_CRITIC_Z, disc_Z, opt_disc, config.LEARNING_RATE,
         )
 
-    dataset = HorseZebraDataset(root_horse = config.TRAIN_DIR + '/trainA', root_zebra=config.TRAIN_DIR + '/trainB', transform = transforms)
+    dataset = HorseZebraDataset(root_horse = config.TRAIN_DIR + '/trainA', root_zebra=config.TRAIN_DIR + '/trainB', transform = config.transforms)
 
     loader = DataLoader(dataset, 
                         batch_size=BATCH_SIZE, 
