@@ -1,2 +1,2 @@
 # Pytorch
-Pytorch projects and pet-projects
+Pytorch Pet-projects
